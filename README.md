@@ -80,6 +80,8 @@ Edit
 FLASK_SECRET_KEY=super‑secret‑key
 DB_USER=root
 DB_PASS=your‑mysql‑password
+
+
 📁 Project Structure
 arduino
 Copy
@@ -105,7 +107,9 @@ Admin	admin@campus.com	admin123
 Student (sample)	student@campus.com	student123
 
 🎯 Usage Guide
+
 Administrators
+
 Login ➜ Dashboard
 
 Manage Programmes → Courses → Semesters
@@ -154,6 +158,7 @@ documents (doc_id PK, regno FK→users, filename, verified BOOL, uploaded_at)
 Full DDL in database/campus.sql.
 
 🛡️ Security Features
+
 BCrypt‑strength password hashes
 
 Flask‑Login session protection
@@ -165,6 +170,7 @@ Strict MIME / extension check on uploads
 Environment‑based config (no secrets in VCS)
 
 🚀 Deployment Checklist
+
  Gunicorn + Nginx (or Apache mod_wsgi)
 
  HTTPS via Let’s Encrypt
@@ -176,6 +182,7 @@ Environment‑based config (no secrets in VCS)
  Fail2Ban / ufw for basic hardening
 
 🤝 Contributing
+
 Fork ➜ feature branch
 
 Code + tests
@@ -188,19 +195,10 @@ Pull request 🚀
 Distributed under the MIT License (LICENSE file).
 
 🆘 Support
+
 Issues tab on GitHub
 
 Email: support@campus‑connect.com
 
 Docs: https://docs.campus‑connect.com
 
-🔄 Version History
-v1.0.0 – Initial MVP (student + admin)
-
-v1.1.0 – Document verification & PDF export
-
-v1.2.0 – Service request module + charts
-
-v2.0.0 – Refactor to Flask blueprints & REST API
-
-“Transforming Campuses—One Click at a Time.” 🚀
