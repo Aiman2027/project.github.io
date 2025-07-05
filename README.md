@@ -88,17 +88,28 @@ Copy
 Edit
 campus-connect/
 ├── app.py                # Flask entry‑point
+
 ├── setup.py              # 1‑click installer / seeder
+
 ├── requirements.txt
+
+
 ├── database/
 │   └── campus.sql        # schema + sample data
+
 ├── backend/              # service / DAO layers
+
 ├── routes/               # Flask blueprints
+
 ├── templates/            # Jinja2 HTML files
+
 ├── static/
+
 │   ├── css/
+
 │   ├── js/
 │   └── images/
+
 ├── uploads/              # student docs
 └── README.md
 🔐 Default Credentials
