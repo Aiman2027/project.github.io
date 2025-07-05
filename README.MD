@@ -34,10 +34,10 @@ A full‑stack web platform that digitises campus life—student registration, c
 | Layer      | Tech                                                |
 |------------|-----------------------------------------------------|
 | *Frontend* | HTML5 · CSS3 · JavaScript · Bootstrap 5            |
-| *Backend*  | Python 3 (Flask / CGI)                             |
+| *Backend*  | Python 3 (CGI)                             |
 | *Database* | MySQL 8.x                                          |
 | *Auth*     | Flask‑Login                                        |
-| *Server*   | XAMPP (Apache + MySQL)                             |
+| *Server*   | XAMPP (Apache + MySQL+ Render)                             |
 | *Dev Tools*| VS Code • Git                                      |
 
 ---
